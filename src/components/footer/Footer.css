@@ -1,0 +1,52 @@
+footer {
+    background-color: #edefee;
+    padding: 50px 0;
+    color: #495e57;
+}
+
+footer .grid3 {
+    grid-template-columns: 3fr 2fr 2fr;
+}
+
+
+footer img {
+    width: 300px;
+    height: 100px;
+}
+
+
+footer h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+footer ul li {
+    font-size: 1.2rem;
+    display: block;
+    color: #333333;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+footer ul li:hover {
+    color: #f4ce14;
+}
+
+.copyright {
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px;
+    background: #495e57;
+    color: #fff;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright span i {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    footer .container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+}

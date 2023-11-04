@@ -1,0 +1,58 @@
+.specials .box {
+    background-color: #edefee;
+    border-radius: 10px;
+}
+
+.specials .text {
+    padding: 30px;
+}
+
+.specials h4 {
+    font-family: "Markazi Text";
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.specials .price {
+    color: #ee9972;
+}
+
+.specials p {
+    font-family: "Karla";
+    padding: 10px 0;
+    color: #333333;
+}
+
+.specials button {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: #f4ce14;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.specials img {
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.specials h1 {
+    font-family: "Markazi Text";
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.specials .grid2 {
+    grid-template-columns: 3fr 1fr;
+}
+
+@media screen and (max-width: 950px) {
+    .specials h1 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+}

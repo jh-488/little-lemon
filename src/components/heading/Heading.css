@@ -1,0 +1,112 @@
+.heading {
+    font-family: "Markazi Text";
+    background-color: #495e57;
+    height: 35vh;
+}
+
+.heading h1 {
+    padding: 20px 0 0;
+    font-size: 3rem;;
+    font-weight: 600;
+    color: #f4ce14;
+}
+
+.heading h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.heading p {
+    padding: 20px 0;
+    font-family: "Karla";
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.heading button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #f4ce14;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.heading img {
+    padding: 20px;
+    width: 400px;
+    height: 40vh;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+
+@media screen and (max-width: 1350px) {
+    .heading {
+        height: 35vh;
+    }
+    
+    .heading p {
+        font-size: 1rem;
+    }
+    
+    .heading button {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    
+    .heading img {
+        width: 250px;
+        border-radius: 10%;
+    } 
+}
+
+@media screen and (max-width: 750px) {
+    .heading h1 {
+        padding: 5px 0;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    
+    .heading h4 {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    
+    .heading p {
+        padding: 10px 0;
+        font-size: 1rem;
+    }
+    
+    .heading button {
+        padding: 10px 15px;
+        font-size: .8rem;
+    }
+    
+    .heading img {
+        padding: 20px 0;
+        width: 150px;
+    } 
+}
+
+@media screen and (max-width: 389px) {
+    .heading h1 {
+        font-size: 1.5rem;
+    }
+    
+    .heading h4 {
+        font-size: 1rem;
+    }
+    
+    .heading p {
+        padding: 5px 0;
+        font-size: .8rem;
+    }
+    
+    .heading button {
+        padding: 5px 10px;
+    }
+}
