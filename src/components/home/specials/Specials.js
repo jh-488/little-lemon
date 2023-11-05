@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Specials.css";
-import SpecialsCard from './SpecialsCard';
+import { specials } from '../../data/Data';
+import Card from '../../card/Card';
 
 const Specials = () => {
   return (
@@ -11,7 +12,7 @@ const Specials = () => {
               <h1>This weeks specials!</h1>
               <button>Online Menu</button>
             </div>
-            <SpecialsCard />
+            <Card items={specials}/>
         </div>
       </section>
     </>
