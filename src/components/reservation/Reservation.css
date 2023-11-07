@@ -1,0 +1,77 @@
+.reservation .heading button {
+  display: none;
+}
+
+.reservation fieldset {
+  border: none;
+}
+
+.reservation .field {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.reservation input, select {
+    padding: 10px 30px;
+    font-family: "Karla";
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.reservation form span {
+  color: gray;
+}
+
+.reservation form {
+  padding: 30px;
+}
+
+.reservation label {
+    font-family: "Markazi Text";
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.reservation button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #f4ce14;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.reservation .btn-disabled {
+  cursor: not-allowed;
+}
+
+.reservation .field.grid2 {
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+}
+
+.reservation .input-error {
+  border: 2px solid #ff2400;
+}
+
+.reservation .error {
+  color: #ff2400;
+  font-family: "Karla";
+  font-size: .8rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
+@media screen and (max-width: 950px) {
+    .reservation .field.grid2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reservation input, select {
+        width: 100%;
+    }
+}

@@ -90,7 +90,7 @@ const About = () => {
             </p>
           </div>
           <div className="right">
-            <img src="/assets/restaurant.jpg" alt="restaurant Chef" />
+            <img src="/assets/mario-adrian2.jpg" alt="restaurant Chef" />
           </div>
         </div>
       </section>
