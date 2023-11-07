@@ -10,7 +10,7 @@ import { fetchAPI, submitAPI } from "../components/api/Api";
 import ConfirmationPage from "./confirmation/ConfirmationPage";
 
 // Update the availableTimes afer the user chooses one
-const updateTimes = (state, action) => {
+export const updateTimes = (state, action) => {
   switch (action.type) {
     case "updateTimes":
       return state.filter((aTime) => aTime !== action.payload);
@@ -20,7 +20,7 @@ const updateTimes = (state, action) => {
 };
 
 // Initial state of the available times (["17:00", "17:30", "19:00", "22:30", "23:00", "23:30"])
-const initializeTimes = fetchAPI(new Date());
+const initializeTimes =  fetchAPI(new Date());
 
 const Pages = () => {
   const [availableTimes, dispatch] = useReducer(updateTimes, initializeTimes);

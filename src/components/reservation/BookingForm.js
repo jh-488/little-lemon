@@ -116,6 +116,7 @@ const BookingForm = ({availableTimes, submitForm}) => {
               type="submit"
               disabled={!values.name || !values.date || !values.time}
               className={(!values.name || !values.date || !values.time) ? "btn-disabled" : ""}
+              id="submit-btn"
             >
               Make a reservation
             </button>
