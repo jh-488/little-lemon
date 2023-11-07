@@ -8,6 +8,7 @@ import Menu from "./menu/Menu";
 import Reservation from "./reservation/Reservation";
 import { fetchAPI, submitAPI } from "../components/api/Api";
 import ConfirmationPage from "./confirmation/ConfirmationPage";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 // Update the availableTimes afer the user chooses one
 export const updateTimes = (state, action) => {
@@ -37,6 +38,7 @@ const Pages = () => {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Nav />
         <Routes>
           <Route path="/" Component={Home}></Route>

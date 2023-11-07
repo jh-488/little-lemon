@@ -39,19 +39,13 @@ const Nav = () => {
           <li>
             <Link to={"/reservations"}>Reservations</Link>
           </li>
-          <li>
-            <Link to={"/order-online"}>Order Online</Link>
-          </li>
-          <li>
-            <Link to={"/login"}>Login</Link>
-          </li>
         </ul>
         <div className="toggle">
           <button onClick={() => setNavList(!Navlist)}>
             {Navlist ? (
-              <i className="fa fa-times"></i>
+              <i className="fa fa-times" aria-label="close menu"></i>
             ) : (
-              <i className="fa fa-bars"></i>
+              <i className="fa fa-bars" aria-label="open menu"></i>
             )}
           </button>
         </div>

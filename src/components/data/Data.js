@@ -31,10 +31,10 @@ export const footer = [
     {
       title: "Little Lemon",
       text: [
+        { list: "Home", page: "/" },
         { list: "About", page: "/about" },
         { list: "Menu", page: "/menu" },
         { list: "Reservations", page: "/reservations" },
-        { list: "Order Online", page: "/order-online" },
       ],
     },
     {

@@ -31,7 +31,7 @@
     background-color: #f4ce14;
     font-size: 1rem;
     font-weight: 600;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 .card img {

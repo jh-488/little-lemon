@@ -7,9 +7,9 @@ header {
 }
 
 header nav {
-  padding: 15px 0;
+  padding: 10px 0;
   display: grid;
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: 3fr 4fr;
 }
 
 header nav .grid {
