@@ -1,8 +1,10 @@
 import React from "react";
 import { useFormik } from "formik";
 import { formSchema } from "../schemas";
+import { useNavigate } from "react-router-dom";
 
 const BookingForm = ({availableTimes, submitForm}) => {
+  const navigate = useNavigate();
 
   const {
     values,
@@ -23,6 +25,7 @@ const BookingForm = ({availableTimes, submitForm}) => {
     onSubmit: (values, actions) => {
       submitForm(values);
       actions.resetForm();
+      navigate("/confirmation", {state:{date:values.date,time:values.time}})
     },
   })
 

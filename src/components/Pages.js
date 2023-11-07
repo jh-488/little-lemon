@@ -7,6 +7,7 @@ import About from "./about/About";
 import Menu from "./menu/Menu";
 import Reservation from "./reservation/Reservation";
 import { fetchAPI, submitAPI } from "../components/api/Api";
+import ConfirmationPage from "./confirmation/ConfirmationPage";
 
 // Update the availableTimes afer the user chooses one
 const updateTimes = (state, action) => {
@@ -45,6 +46,7 @@ const Pages = () => {
             path="/reservations"
             element={<Reservation availableTimes={availableTimes} submitForm={submitForm}/>} 
           ></Route>
+          <Route path="/confirmation" Component={ConfirmationPage}></Route>
         </Routes>
         <Footer />
       </Router>

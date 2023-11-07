@@ -1,0 +1,31 @@
+.confirmation .container {
+    text-align: center;
+    font-family: "Markazi Text";
+}
+
+.confirmation i {
+    color: #50C878;
+    font-size: 15rem;
+}
+
+.confirmation h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #ee9972;
+}
+
+.confirmation p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #495e57;
+    padding: 10px;
+}
+
+.confirmation button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f4ce14;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
